@@ -28,3 +28,13 @@ img{
   margin-right: auto;
   width: 50%;
 }
+textarea{
+    margin: 1rem auto;
+}
+
+button{
+    border-radius: 0.3rem;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 0.2rem;
+}
