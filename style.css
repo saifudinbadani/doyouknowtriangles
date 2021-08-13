@@ -1,0 +1,12 @@
+body{
+    width: 100%;
+}
+
+.container{
+    margin: 1rem auto;
+    padding: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
