@@ -6,7 +6,7 @@ var output = document.querySelector('#output');
 
 
 calculateButton.addEventListener('click', function calculateArea(){
-    if (Number(base.value) || Number(height.value) < 0){
+    if (Number(base.value) < 0 || Number(height.value) < 0){
         output.innerText = 'Enter positive values!'
         
     } else{
