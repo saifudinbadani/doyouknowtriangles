@@ -1,2 +1,2 @@
 # doyouknowtriangles
- a gui application about triangles
+ a gui application with quiz and calculator on triangle
