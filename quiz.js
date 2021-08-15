@@ -1,5 +1,5 @@
 var questionForm = document.querySelector('#quizForm');
-var submitButton = document.querySelector('#submitButton');
+var submitButton = document.querySelector('#quizSubmitButton');
 var quizOutput = document.querySelector('#quizOutput');
 
 rightAnswers = ['right', 'scalene', 'acute', 'isosceles', 'isosceles' ];

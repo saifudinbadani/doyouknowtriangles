@@ -40,3 +40,43 @@ button{
     cursor: pointer;
     padding: 0.2rem;
 }
+
+/* quiz */
+.questions {
+    border: #3b5e8c 2px solid;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+  }
+
+#quizSubmitButton{
+    margin-top: 1rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0.7rem;
+}
+
+.quizH1{
+    margin: 1rem auto;
+    padding: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+#quizOutput{
+    border: #3b5e8c 2px solid;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: black;
+}
