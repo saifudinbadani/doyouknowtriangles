@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-:root{
+
+:root {
     font-family: 'Open Sans';
 }
-body{
+
+body {
     background-color: lightslategray;
     width: 100%;
 }
 
-.container{
+.container {
     margin: 1rem auto;
     padding: 1rem auto;
     display: flex;
@@ -15,24 +17,27 @@ body{
     width: 50%;
     align-items: center;
 }
-input{
+
+input {
     margin: 0.3rem auto;
 }
-img{
+
+img {
     margin: 1rem auto;
 }
 
-.angleImg{
+.angleImg {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
-textarea{
+
+textarea {
     margin: 1rem auto;
 }
 
-button{
+button {
     background-color: black;
     color: white;
     border-radius: 0.3rem;
@@ -51,16 +56,16 @@ button{
     padding: 25px;
     border-radius: 10px;
     font-size: 1.2rem;
-  }
+}
 
-#quizSubmitButton{
+#quizSubmitButton {
     margin-top: 1rem;
     margin-left: 25%;
     margin-right: 25%;
     padding: 0.7rem;
 }
 
-.quizH1{
+.quizH1 {
     margin: 1rem auto;
     padding: 1rem auto;
     display: flex;
@@ -69,7 +74,7 @@ button{
     align-items: center;
 }
 
-#quizOutput{
+#quizOutput {
     border: #3b5e8c 2px solid;
     width: 50%;
     margin-left: 25%;
@@ -79,4 +84,21 @@ button{
     border-radius: 10px;
     font-size: 1.2rem;
     color: black;
+}
+
+/* madeby  */
+#madeby {
+    color: #666;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#backButton {
+    color: lawngreen;
+    border: 2px solid darkslategray;
+    padding: 0.2rem 0.5rem;
+    border-radius: 00.5rem;
+    text-decoration: none;
 }
