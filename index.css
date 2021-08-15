@@ -25,7 +25,10 @@ div{
 
 .button{
 	text-decoration: none;
+	border: 1px solid whitesmoke;
+	border-radius: 00.5rem;
 	color: white;
+	background-color: darkslategray;
 	font-weight: bold;
 	font-size: 20px;
 	position: relative;
@@ -36,77 +39,8 @@ div{
 
 
 
-/* BUTTON DRIE */
 
-a.button.three:before, a.button.three:after{
-	content: '';
-	position: absolute;	
-	width: 0;
-	height: 0;
-	opacity: 0;
-}
-
-a.button.three:before{
-	top: 0;
-	left: 0;
-	border-top: 2px solid white;
-	border-right: 2px solid white;
-}
-a.button.three:after{
-	bottom: 0;
-	right: 0;
-	border-bottom: 2px solid white;
-	border-left: 2px solid white;
-}
-a.button.three:hover:before{
-	animation: first 0.3s forwards;
-	opacity: 1;
-}
-a.button.three:hover:after{
-	animation: second 0.3s forwards;
-}
-@keyframes first{
-	0%{
-		width: 0%;
-		height: 0%;
-	}
-	25%{
-		width: 100%;
-		height: 0%;
-	}
-	50%{
-		width: 100%;
-		height: 100%;
-	}
-	100%{
-		width: 100%;
-		height: 95%;
-	}
-}
-
-@keyframes second{
-	0%{
-		width: 0%;
-		height: 0%;
-	}
-	50%{
-		width: 0%;
-		height: 0%;
-	}	
-	75%{
-		width: 100%;
-		height: 0%;
-		opacity: 1;
-	}
-	100%{
-		width: 100%;
-		height: 95%;
-		opacity: 1;
-	}
-}
-
-
-/* madeby and css */
+/* madeby  */
 #madeby{
 	color: #666;
 	text-decoration: none;
@@ -115,56 +49,5 @@ a.button.three:hover:after{
 	right: 20px;
 }
 
-#madeby:after{
-	content: '';
-	position: absolute;
-	width: 0;
-	height: 100%;
-	top: 0;
-	right: 0;
-	padding-bottom: 5px;
-	border-bottom: 1.5px solid #777;
-	transition: color 0.3s ease;
-	transition: 0.3s width ease;
-}
-#madeby:hover:after{
-	left: 0;
-	width: 100%;
-	transition: 0.3s width ease;
-}
-#madeby:hover{
-	color: #777;
-	transition: color 0.3s ease;
-}
 
 
-/* css credit */
-#cssby{
-	color: #666;
-	text-decoration: none;
-	position: fixed;
-	bottom: 20px;
-	left: 20px;
-}
-
-#cssby:after{
-	content: '';
-	position: absolute;
-	width: 0;
-	height: 100%;
-	top: 0;
-	right: 0;
-	padding-bottom: 5px;
-	border-bottom: 1.5px solid #777;
-	transition: color 0.3s ease;
-	transition: 0.3s width ease;
-}
-#cssby:hover:after{
-	left: 0;
-	width: 100%;
-	transition: 0.3s width ease;
-}
-#cssby:hover{
-	color: #777;
-	transition: color 0.3s ease;
-}
