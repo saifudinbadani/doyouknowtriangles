@@ -1,10 +1,10 @@
 var questionForm = document.querySelector('#quizForm');
-var submitButton = document.querySelector('#quizSubmitButton');
 var quizOutput = document.querySelector('#quizOutput');
 
-rightAnswers = ['right', 'scalene', 'acute', 'isosceles', 'isosceles' ];
+rightAnswers = ['right', 'scalene', 'acute', 'isosceles', 'isosceles', '180', '30', 'acute', 'hypotenuse', 'equilateral' ];
 
-function calculateScore(){
+function calculateScore(e){
+    e.preventDefault();
     let index = 0;
     let score = 0;
     const formResults = new FormData(questionForm);
@@ -17,4 +17,4 @@ function calculateScore(){
     quizOutput.innerText = 'Your score is ' + score;
 }
 
-submitButton.addEventListener('click', calculateScore);
+questionForm.addEventListener('submit', calculateScore);

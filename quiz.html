@@ -20,14 +20,14 @@
         <form id="quizForm">
             <div class="questions">
                 <p>1. What type of triangle has at least one 90 degree angle?</p>
-                <label><input type="radio" name="question1" value="scalene" /> Scalene</label> <br />
+                <label><input type="radio" name="question1" value="scalene" required/> Scalene</label> <br />
                 <label><input type="radio" name="question1" value="right" /> Right</label> <br />
                 <label><input type="radio" name="question1" value="equilateral" /> Equilateral</label><br />
                 <label><input type="radio" name="question1" value="acute" /> Acute</label>
             </div>
             <div class="questions">
                 <p>2. What type of triangle has no equal or congruent sides?</p>
-                <label><input type="radio" name="question2" value="obtuse" /> Obtuse</label> <br />
+                <label><input type="radio" name="question2" value="obtuse" required/> Obtuse</label> <br />
                 <label><input type="radio" name="question2" value="acute" />
                     Acute</label> <br />
                 <label><input type="radio" name="question2" value="isosceles" /> Isosceles</label><br />
@@ -36,14 +36,14 @@
 
             <div class="questions">
                 <p>3. What type of triangle has 3 angles less than 90 degrees?</p>
-                <label><input type="radio" name="question3" value="acute" /> Acute</label> <br />
+                <label><input type="radio" name="question3" value="acute"  required/> Acute</label> <br />
                 <label><input type="radio" name="question3" value="scalene" /> Scalene</label> <br />
                 <label><input type="radio" name="question3" value="right" /> Right</label><br />
                 <label><input type="radio" name="question3" value="obtuse" /> Obtuse</label>
             </div>
             <div class="questions">
                 <p>4. What type of triangle has 2 equal or congruent sides?</p>
-                <label><input type="radio" name="question4" value="right" /> Right</label> <br />
+                <label><input type="radio" name="question4" value="right" required/> Right</label> <br />
                 <label><input type="radio" name="question4" value="isosceles" /> Isosceles</label> <br />
                 <label><input type="radio" name="question4" value="equilateral" /> Equilateral</label><br />
                 <label><input type="radio" name="question4" value="scalene" /> Scalene</label>
@@ -51,13 +51,53 @@
 
             <div class="questions">
                 <p>5. What type of triangle has side lengths of 6, 6, and 10 cm?</p>
-                <label><input type="radio" name="question5" value="scalene" /> Scalene</label> <br />
+                <label><input type="radio" name="question5" value="scalene" required/> Scalene</label> <br />
                 <label><input type="radio" name="question5" value="acute" /> Acute</label> <br />
                 <label><input type="radio" name="question5" value="equilateral" /> Equilateral</label><br />
                 <label><input type="radio" name="question5" value="isosceles" /> Isosceles</label>
             </div>
+
+            <div class="questions">
+                <p>6. How many degrees do the three angles of a triangle add up to?</p>
+                <label><input type="radio" name="question6" value="90" required/> 90</label> <br />
+                <label><input type="radio" name="question6" value="180" /> 180</label> <br />
+                <label><input type="radio" name="question6" value="200" /> 200</label><br />
+                <label><input type="radio" name="question6" value="360" /> 360</label>
+            </div>
+            
+            <div class="questions">
+                <p>7. If two of the angles in a triangle are 50 degrees and 100 degrees what is the third angle?</p>
+                <label><input type="radio" name="question7" value="10" required/> 10</label> <br />
+                <label><input type="radio" name="question7" value="50" /> 50</label> <br />
+                <label><input type="radio" name="question7" value="90" /> 90</label><br />
+                <label><input type="radio" name="question7" value="30" /> 30</label>
+            </div>
+
+            <div class="questions">
+                <p>8. If the three angles of a triangle measure 60, 80, and 40 degrees what type of triangle is it?</p>
+                <label><input type="radio" name="question8" value="acute" required/> Acute</label> <br />
+                <label><input type="radio" name="question8" value="obtuse" /> Obtuse</label> <br />
+                <label><input type="radio" name="question8" value="right" /> Right</label>
+                
+            </div>
+
+            <div class="questions">
+                <p>9. In right triangle, the side opposite to right angle is called....</p>
+                <label><input type="radio" name="question9" value="altitude" required/> Altitude</label> <br />
+                <label><input type="radio" name="question9" value="hypotenuse" /> Hypotenuse</label> <br />
+                <label><input type="radio" name="question9" value="angleBisector" /> Angle bisector</label>
+            </div>
+
+            <div class="questions">
+                <p>10. A triangle that has 3 equal sides and 3 equal angles is known as....</p>
+                <label><input type="radio" name="question10" value="scalene" required/> Scalene triangle</label> <br />
+                <label><input type="radio" name="question10" value="isosceles" /> Isosceles triangle</label> <br />
+                <label><input type="radio" name="question10" value="equilateral" /> Equilateral triangle</label>
+            </div>
+
+            <button id="quizSubmitButton" type="submit">Submit</button>
         </form>
-        <button id="quizSubmitButton">Submit</button>
+        <!-- <button id="quizSubmitButton">Submit</button> -->
         <div id="quizOutput"></div>
     </div>
     <a id="madeby" target="_blank" href="https://saifudinbadani.netlify.app">made by Saifudin</a>
